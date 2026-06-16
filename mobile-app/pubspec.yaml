@@ -1,0 +1,86 @@
+name: flutter_application_1
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.32.0
+  cloud_firestore: ^4.17.5
+  firebase_auth: ^4.17.4
+  firebase_auth_web: ^5.8.13
+
+  # File Picking
+  file_picker: ^6.1.1
+  image_picker: ^0.8.7+4 # Vous aviez 0.8.7+4, je l'ai gardé. Dernière version est ~1.1.0
+
+  # Charts
+  fl_chart: ^0.63.0 # Dernière version est ~0.68.0
+
+  # Machine Learning
+  tflite_flutter: ^0.9.0 # Peut-être mettre à jour vers ^0.10.0 si compatible avec le reste
+  tflite_flutter_helper: ^0.2.1 # Version ok, mais tflite_flutter 0.10.x utilise une version plus récente de helper
+
+  # Camera
+  camera: ^0.10.0 # Dernière version est ~0.11.0
+  camera_web: ^0.3.0 # Dernière version est ~0.3.3
+
+  # Fonts & UI
+  google_fonts: ^6.2.1
+
+  # HTTP requests
+  http: ^1.2.0
+  http_parser: ^4.0.2
+  universal_html: ^2.2.4
+
+  # SSE Client - CORRECT PLACEMENT
+  flutter_client_sse: ^2.0.3 # Ou la dernière version disponible
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  web_socket_channel: ^2.4.0
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/logo.png
+  android: true
+  ios: true
+  fullscreen: true # Note: 'fullscreen' est déprécié pour android 12+, utilisez android_12 et ios_content_mode
+  # android_gravity: center # android_gravity est aussi déprécié, utilisez android_12.gravity
+
+# --- Configuration pour Android 12+ Splash Screen (remplace fullscreen et android_gravity) ---
+# flutter_native_splash-development.yaml ou flutter_native_splash.yaml
+# android_12:
+#   image: assets/logo.png
+#   color: "#FFFFFF"
+#   # icon_background_color: "#FFFFFF" # si votre logo est petit
+#   # branding: assets/branding.png # si vous avez un branding en bas
+#   # branding_mode: bottom # bottom, bottom_right, bottom_left
+
+flutter:
+  uses-material-design: true
+  # flutter_client_sse: ^1.1.0 # <--- SUPPRIMER CETTE LIGNE D'ICI
+
+  assets:
+    - assets/models/model.tflite # Assurez-vous que ce chemin est correct
+    - assets/chiken1.jpg
+    - assets/chiken3.png
+    - assets/chiken4.jpg
+    - assets/chiken5.png
+    - assets/chiken6.png
+    - assets/chiken7.png
+    - assets/chiken8.png
+    - assets/chiken9.png
+    - assets/chiken10.png
+    - assets/chiken11.png
+    - assets/chiken12.png
+    - assets/logo.png
+   

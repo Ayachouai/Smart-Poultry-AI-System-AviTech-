@@ -1,0 +1,9 @@
+*.h5
+*.pkl
+*.tflite
+*.pt
+.env
+/build/
+venv/
+__pycache__/
+.dart_tool/
