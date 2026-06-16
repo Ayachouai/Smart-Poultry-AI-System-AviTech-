@@ -21,28 +21,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: "AIzaSyBws0xipmv0ltGR_FJED3RNH8vCUXSo0Oo",
-    authDomain: "application-a1984.firebaseapp.com",
-    projectId: "application-a1984",
-    storageBucket: "application-a1984.appspot.com",
-    messagingSenderId: "644332845042",
-    appId: "1:644332845042:web:dd755386f0c4308b925d6b",
+    apiKey: "YOUR_FIREBASE_API_KEY_HERE",
+    authDomain: "YOUR_AUTH_DOMAIN_HERE",
+    projectId: "YOUR_PROJECT_ID_HERE",
+    storageBucket: "YOUR_STORAGE_BUCKET_HERE",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID_HERE",
+    appId: "YOUR_WEB_APP_ID_HERE",
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: "AIzaSyBws0xipmv0ltGR_FJED3RNH8vCUXSo0Oo",
-    appId: "1:644332845042:android:dd755386f0c4308b925d6b",
-    messagingSenderId: "644332845042",
-    projectId: "application-a1984",
-    storageBucket: "application-a1984.appspot.com",
+    apiKey: "YOUR_FIREBASE_API_KEY_HERE",
+    appId: "YOUR_ANDROID_APP_ID_HERE",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID_HERE",
+    projectId: "YOUR_PROJECT_ID_HERE",
+    storageBucket: "YOUR_STORAGE_BUCKET_HERE",
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: "AIzaSyBws0xipmv0ltGR_FJED3RNH8vCUXSo0Oo",
-    appId: "1:644332845042:ios:dd755386f0c4308b925d6b",
-    messagingSenderId: "644332845042",
-    projectId: "application-a1984",
-    storageBucket: "application-a1984.appspot.com",
+    apiKey: "YOUR_FIREBASE_API_KEY_HERE",
+    appId: "YOUR_IOS_APP_ID_HERE",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID_HERE",
+    projectId: "YOUR_PROJECT_ID_HERE",
+    storageBucket: "YOUR_STORAGE_BUCKET_HERE",
     iosBundleId: "com.example.application",
   );
 }
